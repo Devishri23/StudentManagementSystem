@@ -1,0 +1,194 @@
+/* General Page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+
+/* Main */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+
+/* Common Sections */
+
+.form-section,
+.search-section,
+.table-section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1f4e79;
+}
+
+
+/* Form */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #1f4e79;
+}
+
+
+/* Buttons */
+
+button {
+    border: none;
+    padding: 11px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #1f4e79;
+    color: white;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.cancel-btn {
+    background: #777;
+    margin-left: 8px;
+}
+
+
+/* Search */
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.show-btn {
+    background: #555;
+}
+
+
+/* Table */
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #1f4e79;
+    color: white;
+}
+
+table tr:hover {
+    background: #f5f5f5;
+}
+
+
+/* Action Buttons */
+
+.edit-btn {
+    background: #f39c12;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    background: #e74c3c;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f4e79;
+    color: white;
+    margin-top: 30px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 700px) {
+
+    main {
+        width: 95%;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    table {
+        min-width: 700px;
+    }
+}
