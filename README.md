@@ -4,8 +4,7 @@ A responsive web-based **Student Management System** developed to manage student
 
 ##  Live Demo
 
-[View Live Project](https://devishri23.github.io/StudentManagementSystem/)
-
+[ View Live Project](https://devishri23.github.io/StudentManagementSystem/)
 
 ##  Project Overview
 
